@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Modulation Technique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <!-- <div id="logo">CDA</div> -->
+            <li><a href="#introSection">ASK</a> <!-- <li><a href="/">Home</a></li> --->
+            </li>
+            <li><a href="#fsk">FSK</a></li>
+            <li><a href="#psk">PSK</a></li>
+            <li><a href="#bpsk">BPSK</a></li>
+            <li><a href="#qpskhead">QPSK</a></li>
+        </ul>
+    </nav>
+    <section id="introSection">
+        <!-- <div>Welcome to Chandu's Dance Academy</div>
+        <div class="small">Any Body Can Dance</div> -->
+       <div class="head1">
+        <h2>1)ASK</h2>
+       </div>
+        <p> Amplitude-shift keying (ASK) is a form of amplitude modulation that represents digital data as variations in the amplitude of a carrier wave. In an ASK system, a symbol, representing one or more bits, is sent by transmitting a fixed-amplitude carrier wave at a fixed frequency for a specific time duration.Any digital modulation scheme uses a finite number of distinct signals to represent digital data. ASK uses a finite number of amplitudes, each assigned a unique pattern of binary digits. Usually, each amplitude encodes an equal number of bits. Each pattern of bits forms the symbol that is represented by the particular amplitude</p>
+        <!-- <div class="head2">
+            <h2>Generation Method Of ASK</h2>
+        </div> -->
+        <!-- <div>
+            <img src="ask modulation.jpg" alt="">
+        </div> -->
+    </section>
+    <!-- <div class="head2">
+        <h2>Generation Method Of ASK</h2>
+    </div> -->
+    <section>
+         <div class="diag1" >
+            <img src="ask modulation.jpg" alt="">
+            <div class="box1">
+                <p>
+                    The ASK modulator block diagram comprises of the carrier signal generator, the binary sequence from the message signal and the band-limited filter. Following is the block diagram of the ASK Modulator.The carrier generator, sends a continuous high-frequency carrier. The binary sequence from the message signal makes the unipolar input to be either High or Low. The high signal closes the switch, allowing a carrier wave. Hence, the output will be the carrier signal at high input. When there is low input, the switch opens, allowing no voltage to appear. Hence, the output will be low.The band-limiting filter, shapes the pulse depending upon the amplitude and phase characteristics of the band-limiting filter or the pulse-shaping filter.
+                </p>
+
+            </div>
+    
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="head3">
+            <h2>
+                ASK DEMODULATOR
+            </h2>
+        </div>
+        <div class="diag2">
+            <img src="ask demodulator 1.jpg" alt="">
+        </div>
+        <div class="box2">
+            <div class="asy">
+                <h2>
+                    Asynchronous ASK Detector:
+                </h2>
+            </div>
+            <div class="box">
+                <p>
+
+                    The ASK modulated input signal is given to the Square law detector. A square law detector is one whose output voltage is proportional to the square of the amplitude modulated input voltage. The low pass filter minimizes the higher frequencies. The comparator and the voltage limiter help to get a clean digital output
+                </p>
+            </div>
+            
+        </div>
+      
+        
+    </section>
+    
+    <section>
+        <!-- <div class="head3">
+            <h2>
+                ASK DEMODULATOR
+            </h2>
+        </div> -->
+        <div class="diag3">
+            <img src="ask demodulator 2.jpg" alt="">
+        </div>
+        <div class="box3">
+            <div class="sy">
+                <h2>
+                    Synchronous ASK Detector:
+                </h2>
+            </div>
+            <div class="box">
+                <p>
+
+                    The ASK modulated input signal is given to the Square law detector. A square law detector is one whose output voltage is proportional to the square of the amplitude modulated input voltage. The low pass filter minimizes the higher frequencies. The comparator and the voltage limiter help to get a clean digital output.
+
+
+                </p>
+            </div>
+            
+        </div>
+        <!-- FSK  START -->
+        <section id="fsk">
+            <div class="headfsk">
+                <h2>2)FSK</h2>
+            </div>
+            <p>
+                Frequency-shift keying (FSK) is a method of transmitting digital signals using discrete signals. The two binary states  logic 0 (low) and 1 (high) in a binary frequency-shift key mechanism  are each represented by an analog waveform.Logic 0 is represented by a wave at a specific frequency, and logic 1 is represented by a wave at a different frequency. The distance between logic 0 and logic 1 is known as the deviation or shift point. A modem converts the binary data from a computer to FSK for transmission over telephone lines, cables, optical fiber or wireless media. The modem also converts incoming FSK signals to digital low and high states, which the computer can understand from a binary standpoint.
+            </p>
+        </section>
+        <section>
+            <div class="diag4">
+                <img src="fsk 1.jpg" alt="">
+            </div>
+            <div class="box4">
+                <div class="fskmod">
+                    <h2>
+                      FSK Modulator:
+                    </h2>
+                </div>
+                <div class="box">
+                    <p>
+    
+                        The two oscillators, producing a higher and a lower frequency signals, are connected to a switch along with an internal clock. To avoid the abrupt phase discontinuities of the output waveform during the transmission of the message, a clock is applied to both the oscillators, internally. The binary input sequence is applied to the transmitter so as to choose the frequencies according to the binary input.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="diag5">
+                <img src="fsk 2.jpg" alt="">
+            </div>
+            <div class="box5">
+                <div class="fasy">
+                    <h2>
+                        Asynchronous FSK Detector:
+                    </h2>
+                </div>
+                <div class="box">
+                    <p>
+    
+                        The two oscillators, producing a higher and a lower frequency signals, are connected to a switch along with an internal clock. To avoid the abrupt phase discontinuities of the output waveform during the transmission of the message, a clock is applied to both the oscillators, internally. The binary input sequence is applied to the transmitter so as to choose the frequencies according to the binary input.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="diag6">
+                <img src="fsk 3.jpg" alt="">
+            </div>
+            <div class="box6">
+                <div class="fsy">
+                    <h2>
+                        synchronous FSK Detector:
+                    </h2>
+                </div>
+                <div class="box">
+                    <p>
+    
+                        The FSK signal input is given to the two mixers with local oscillator circuits. These two are connected to two band pass filters. These combinations act as demodulators and the decision circuit chooses which output is more likely and selects it from any one of the detectors. The two signals have a minimum frequency separation.For both of the demodulators, the bandwidth of each of them depends on their bit rate. This synchronous demodulator is a bit complex than asynchronous type demodulators.
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- PSK START HERE  -->
+        <section id="psk">
+            <div class="headpsk">
+                <h2>2)PSK</h2>
+            </div>
+            <p>
+                PSK  is the digital modulation technique in which the phase of the carrier signal is changed by varying the sine and cosine inputs at a particular time. PSK technique is widely used for wireless LANs, bio-metric, contactless operations, along with RFID and Bluetooth communications. PSK is of two types, depending upon the phases the signal gets shifted. They are −
+            </p>
+            <div class="type1">
+                <h3> -Binary Phase Shift Keying (BPSK) </h3>
+            </div>
+
+            <div class="type2">
+            <h3> -Quadrature Phase Shift Keying (QPSK)</h3>
+            </div>
+            
+        </section>
+        <!-- <section>
+            <div class="bpsk">
+                <h3>A) BPSK</h3>
+            </div>
+            <div class="diag7">
+                <img src="BPSK.jpg" alt="">
+            </div>
+
+        </section> -->
+
+        <section>
+            <div id="bpsk">
+                <div class="bpskhead">
+                    <h3>A) BPSK</h3>
+                </div>
+            </div>
+            <!-- <div id="bpskhead">
+                <h3>A) BPSK</h3>
+            </div> -->
+            <div class="diag7">
+                <img src="BPSK.jpg" alt="">
+            </div>
+            <div class="box7">
+                <div class="BPSK MOD">
+                    <h2>
+                        BPSK Modulator:
+                    </h2>
+                </div>
+                <div class="box">
+                    <p>
+                        The block diagram of Binary Phase Shift Keying consists of the balance modulator which has the carrier sine wave as one input and the binary sequence as the other input. The modulation of BPSK is done using a balance modulator, which multiplies the two signals applied at the input. For a zero binary input, the phase will be 0° and for a high input, the phase reversal is of 180°.The output sine wave of the modulator will be the direct input carrier or the inverted 180°phaseshifted input carrier, which is a function of the data signal.
+    
+                        
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+           
+            <div class="diag8">
+                <img src="BPSK DE.jpg" alt="">
+            </div>
+            <div class="box8">
+                <div class="BPSK MOD">
+                    <h2>
+                        BPSK Demodulator:
+                    </h2>
+                </div>
+                <div class="box">
+                    <p>
+                        The block diagram of BPSK demodulator consists of a mixer with local oscillator circuit, a bandpass filter, a two-input detector circuit. By recovering the band-limited message signal, with the help of the mixer circuit and the band pass filter, the first stage of demodulation gets completed. The base band signal which is band limited is obtained and this signal is used to regenerate the binary message bit stream.In the next stage of demodulation, the bit clock rate is needed at the detector circuit to produce the original binary message signal. If the bit rate is a sub-multiple of the carrier frequency, then the bit clock regeneration is simplified. To make the circuit easily understandable, a decision-making circuit may also be inserted at the 2nd stage of detection.
+    
+                        
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+        
+             <!-- QPSK Strat Heree -->
+
+        <section>
+            <div id="qpskhead">
+                <h3>A) QPSK</h3>
+            </div>
+           
+            <div class="diag9">
+                <img src="QPSK 1.jpg" alt="">
+            </div>
+            <div class="box9">
+                <div class="QPSK MOD">
+                    <h2>
+                        QPSK Modulator:
+                    </h2>
+                </div>
+                <div class="box">
+                    <p>
+                        The QPSK Modulator uses a bit-splitter, two multipliers with local oscillator, a 2-bit serial to parallel converter, and a summer circuit.At the modulators input, the message signals even bits (i.e., 2nd bit, 4th bit, 6th bit, etc.) and odd bits (i.e., 1st bit, 3rd bit, 5th bit, etc.) are separated by the bits splitter and are multiplied with the same carrier to generate odd BPSK (called as PSKI) and even BPSK (called as PSKQ). The PSKQ signal is anyhow phase shifted by 90° before being modulated.
+    
+                        
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            
+           
+            <div class="diag10">
+                <img src="QPSK 2.jpg" alt="">
+            </div>
+            <div class="box10">
+                <div class="QPSK MOD">
+                    <h2>
+                        QPSK Demodulator:
+                    </h2>
+                </div>
+                <div class="box">
+                    <p>
+                        The QPSK Demodulator uses two product demodulator circuits with local oscillator, two band pass filters, two integrator circuits, and a 2-bit parallel to serial converter. Following is the diagram for the same.The two product detectors at the input of demodulator simultaneously demodulate the two BPSK signals. The pair of bits are recovered here from the original data. These signals after processing, are passed to the parallel to serial converter.
+
+
+    
+                        
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+   
+   
+
+    <section id="missionSection">
+        <h2>Application</h2>
+        <div class="card">
+
+            <h3>ASK</h3>
+            <div class="card-box">
+                <div class="card-content">
+                    <h3>Low-frequency RF applications
+                    </h3>
+                    <h3>Home automation devices</h3>
+                    <h3>Industrial networks devices</h3>
+                    <h3>Wireless base stations</h3>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>FSK</h3>
+            <div class="card-box">
+                <!-- <div class="card-img"><img src="/static/img/dance2.png"></div> -->
+                <div class="card-content">
+                    <h3>Useful in high-frequency radio transmissions
+                    </h3>
+                    <h3>Preferable in high-frequency communications</h3>
+                    <h3>Low-speed digital applications</h3>
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>PSK</h3>
+            <div class="card-box">
+                <!-- <div class="card-img"><img src="/static/img/dance3.png"></div> -->
+                <div class="card-content3">
+                    <h3>Local Oscillator</h3>
+                    <h3>Optical Communications</h3>
+                    <h3>Multi-channel WDM</h3>
+                    <h3>Delay & add demodulator</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- <section id="sponsorsSection">
+        <h2>Our Sponsors</h2>
+        <div id="sponsors"><img class="spImage" src="/static/img/apple.png" alt="Sponsor Image"><img class="spImage"
+                src="/static/img/hp.png" alt="Sponsor Image"><img class="spImage" src="/static/img/microsft.png"
+                alt="Sponsor Image"><img class="spImage" src="/static/img/skype.png" alt="Sponsor Image"></div>
+    </section> -->
+    <!-- <footer id="footer"> Copyright © 2022 ChanduDanceAcademy.com | All rights are reserved </footer> -->
+    <script></script>
+</body>
+
+</html>

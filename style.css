@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        #logo {
+            display: flex;
+            color: white;
+            align-items: center;
+            margin: 0 14px;
+            font-size: 30px;
+            margin-right: 50px;
+        }
+
+        #logo img {
+            height: 42px;
+            filter: invert(1);
+            /*To change color of logo to white*/
+        }
+
+        #navbar {
+            background-color: bisque;
+            padding: 10px 14px;
+            font-family: 'Yeon Sung', cursive;
+        }
+
+        #navbar ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navbar li {
+            list-style: none;
+        }
+
+        #navbar li a {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 13px 20px;
+        }
+
+        #navbar li a:hover {
+            color: grey;
+            text-decoration: none;
+            padding: 13px 30px;
+        }
+        .head1{
+            margin-left: -1363px;
+            font-size: medium;
+        }
+        .head2{
+            margin-left: -1170px;   
+            margin-top: 10px;
+        }
+        .head3{
+            margin-top: 100px;
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            margin-left: 80px;
+        }
+        .bpskhead{
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: x-large;
+            margin-top: 33px;
+            padding: 5px 50px;
+        }
+        #qpskhead{
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: x-large;
+            margin-top: 33px;
+            padding: 5px 50px;
+        }
+        .diag1{
+            margin-left: 80px;
+            margin-top: -102px;
+
+        }
+        .diag2{
+            margin-left: 84px;
+            margin-top: 79px;
+
+        }
+        .diag3{
+            margin-left: 116px;
+            margin-top:200px;
+
+        }
+        .diag4{
+            margin-left: 170px;
+            margin-top:70px;
+
+
+        }
+        .diag5{
+            margin-left:  100px;
+            margin-top:  215px;
+            
+
+        }
+        .diag6{
+            margin-left: 92px;
+            margin-top: 214px;
+            
+
+        }
+        .diag7{
+            margin-left: 66px;
+            margin-top: 24px;
+            
+
+        }
+        .diag8{
+            margin-left: 102px;
+            margin-top: 176px;
+            
+
+        }
+        .diag9{
+            margin-left: 76px;
+            margin-top: 29px;
+            
+
+        }
+        .diag10{
+            margin-left: 70px;
+            margin-top: 142px;
+            
+
+        }
+        .box1{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px #5f5247b0  ;
+            font-size: large;
+            margin-left:  841px;;
+            margin-top: -415px;
+            height: 361px;
+            width: 428px;
+        }
+        .box2{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:   929px;;
+            margin-top: -392px;
+            height: 232px;
+            width: 428px;
+        }
+       
+        .box3{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  933px;
+            margin-top: -277px;
+            height: 232px;
+            width: 428px;
+        }
+        .box4{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  950px;
+            margin-top: -371px;
+            height: 232px;
+            width: 428px;
+        }
+        .box5{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  963px;
+            margin-top: -389px;
+            height: 232px;
+            width: 428px;
+        }
+        .box6{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  964px;
+            margin-top: -431px;
+            height: 308px;
+            width: 428px;
+        }
+        .box7{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  956px;
+            margin-top: -423px;
+            height: 308px;
+            width: 428px;
+        }
+        .box8{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  960px;
+            margin-top: -350px;
+            height: 381px;
+            width: 428px;
+        }
+        .box9{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  956px;
+            margin-top: -350px;
+            height: 303px;
+            width: 428px;
+        }
+        .box10{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #5f5247b0;
+            font-size: large;
+            margin-left:  953px;
+            margin-top: -350px;
+            height: 303px;
+            width: 428px;
+        }
+
+
+
+
+
+
+        #introSection {
+            /* padding-bottom: 40px; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+            background: center / cover no-repeat url("/static/img/dancebg.jpg");
+            height: 425px;
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            margin-top: -130px;
+            padding: 5px 50px;
+
+        }
+        #fsk{
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: x-large;
+            margin-top: 200px;
+            padding: 5px 60px;
+        }
+        #psk{
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: x-large;
+            margin-top: 200px;
+            padding: 5px 50px;
+            
+        }
+        .headpsk{
+            font-size: medium;
+        }
+        .headfsk{
+            font-size: medium;
+        }
+        .type1{
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: large;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .type2{
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: large;
+        }
+        /* #introSection {
+            width: 576px;
+            padding: 40px 12px;
+            margin: -39px 12px;
+            background-color: bisque;
+            box-shadow: 10px 13px 5px  #ff7a006b;
+            font-size: large;
+            margin-left: 428px;
+            margin-top: 35px;
+        
+        } */
+
+        #introSection div.small {
+            font-size: 52px;
+            padding: 5px;
+        }
+
+        #missionSection {
+            height: 325px;
+            width: 67%;
+            margin: auto;
+            display: block;
+            margin-top: 150px;
+            /* background-color: #282828; */
+
+        }
+
+        #missionSection h2 {
+            /* color: white; */
+            text-align: center;
+            font-size: 36px;
+            font-family: 'Yeon Sung', cursive;
+        }
+
+        .card {
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 29%;
+            margin: 23px 20px;
+            height: 209px;
+            background-color: bisque;
+        }
+
+        .card h3 {
+            text-align: center;
+            margin: 12px;
+            font-size: 22px;
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+        }
+
+        .card-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* .card-img {
+            height: 131px;
+            padding: 0 14px;
+            margin: 5px 9px;
+        }
+
+        .card-img img {
+            height: inherit;
+        } */
+
+        .card-content {
+            padding: 0 10px;
+            
+           
+        }
+        .card-content3{
+            margin-left: 40px;
+            
+        }
+       
+
+        .card-content p {
+            font-size: 19px;
+            
+        }
+
+        /* #sponsorsSection {
+            height: 300px;
+            background-color: #ff9a9a;
+
+        }
+
+        #sponsorsSection h2 {
+            color: white;
+            text-align: center;
+            font-size: 36px;
+            font-family: 'Yeon Sung', cursive;
+        }
+
+        #sponsors {
+            height: 188px;
+            max-width: 1000px;
+            margin: 27px auto;
+        }
+
+        .spImage {
+            height: 80%;
+            margin: 20px;
+        }
+
+        #footer {
+            display: flex;
+            color: white;
+            height: 35px;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+            font-size: 17px;
+        }  */
